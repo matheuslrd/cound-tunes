@@ -1,0 +1,34 @@
+.header {
+  background: #111;
+  color: white;
+  width: 100%;
+}
+
+.header-top {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 0.8em 1em;
+}
+
+.container-user-name {
+  letter-spacing: 1px;
+  text-align: center;
+  width: 15%;
+}
+
+.nav-bar {
+  background: #e7e7e7;
+  padding: 0.8em 1em;
+}
+
+.nav-list {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.nav-item a {
+  color: black;
+}

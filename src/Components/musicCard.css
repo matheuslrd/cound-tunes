@@ -1,0 +1,13 @@
+.song-card-item {
+  background: #e7e7e7;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.39);
+  margin: 0.5em;
+  padding: 1em;
+}
+
+.favorite-and-name {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  justify-content: space-around;
+  margin-bottom: 0.5em;
+}

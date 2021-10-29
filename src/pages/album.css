@@ -1,0 +1,36 @@
+.data-album-and-musics {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 1em;
+  width: 100%;
+}
+
+.album-container {
+  align-items: center;
+  background: #e7e7e7;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.39);
+  display: flex;
+  flex-flow: column-reverse nowrap;
+  height: 25%;
+  justify-content: space-between;
+  padding: 0.5em;
+  width: 40%;
+}
+
+.music-container {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 1em;
+  width: 100%;
+}
+
+.artist-name {
+  margin: 1em 0;
+}
+
+.img-album-page-album {
+  width: 50%;
+}
