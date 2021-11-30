@@ -55,8 +55,8 @@ class Search extends Component {
       return <p>Nenhum álbum foi encontrado</p>;
     }
 
-    return albumArtist.map((album) => (
-      <AlbumCard key={ album.collectionName } album={ album } />
+    return albumArtist.map((album, key) => (
+      <AlbumCard key={ key } album={ album } />
     ));
   }
 
