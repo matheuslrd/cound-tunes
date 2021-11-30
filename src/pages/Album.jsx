@@ -28,11 +28,11 @@ class Album extends Component {
   }
 
   mapMusic(musics) {
-    return musics.slice(1).map((music) => (
+    return musics.slice(1).map((music, key) => (
       <MusicCard
         listSongs={ musics }
         music={ music }
-        key={ `${music.trackId}` }
+        key={ key }
       />));
   }
 
